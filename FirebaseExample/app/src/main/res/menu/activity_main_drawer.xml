@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/btn_plus"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/digitalRecord"
+            android:icon="@android:drawable/btn_plus"
+            android:title="Digital Record" />
+
+
+        <item
+            android:id="@+id/medicineReminder"
+            android:icon="@android:drawable/btn_plus"
+            android:title="Medicine Reminder" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@android:drawable/btn_plus"
+            android:title="About us" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/btn_plus"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/btn_plus"
+            android:title="Logout" />
+    </group>
+</menu>
